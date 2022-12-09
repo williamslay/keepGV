@@ -1,0 +1,12 @@
+name: Auto Send Message To Groupme By Bot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+jobs:
+  autoSend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build Shell
+        run: |
+          curl -d '{"text" : "Send Keep GV Live Message![SKGVLM]", "bot_id" : "${{ secrets.GM_BOT_ID }}"}' https://api.groupme.com/v3/bots/post
