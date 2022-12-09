@@ -102,8 +102,16 @@ GoogleVoice 全自动批量保号
 
 12. 好了，现在可以试试会不会自动回复了
 
+## 其他保号方法
+
+![](https://cdn.jsdelivr.net/gh/HalfCoke/blog_img@master/img/image-20221209223322414.png)
+
+![](https://cdn.jsdelivr.net/gh/HalfCoke/blog_img@master/img/image-20221209223350451.png)
+
 # 参考
 
 https://github.com/ssapym/Action-keepGV
 
 https://www.moeelf.com/archives/4.html
+
+https://www.youtube.com/watch?v=wyjPplc8bf8
