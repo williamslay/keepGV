@@ -2,7 +2,7 @@ name: Auto Send Message To Groupme By Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 4 * * *'
 jobs:
   autoSend:
     runs-on: ubuntu-latest
